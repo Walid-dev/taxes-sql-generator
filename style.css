@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: rgb(70, 67, 67);
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 99vh;
+}
+
+h1 {
+  color: rgb(33, 213, 226);
+  text-align: center;
+  padding: 10px 8px;
+  background: transparent;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  color: aqua;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 8px;
+  text-transform: uppercase;
+}
+
+h5 {
+  background: transparent;
+  text-transform: uppercase;
+  color: azure;
+}
+
+#customerDeletionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.queries-list-array {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sql-query-container {
+}
+
+.sql-query-container {
+  font-size: 14px;
+}
+
+.input-container {
+  margin: 12px 0;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+}
+
+.InputFieldEmail {
+  width: 210px;
+}
+
+.InputFieldHO {
+  width: 100px;
+}
+
+input {
+  font-size: 13px;
+  font-family: inherit;
+  padding: 0.2em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  margin: 6px;
+}
+
+button {
+  width: 200px;
+  margin-left: 15%;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#taxesContainer {
+  background: rgb(94, 93, 93);
+  position: relative;
+  min-height: 99vh;
+  /* padding: 80px 0; */
+}
+
+#taxesContainer p,
+.queries-list-array p {
+  font-size: 14px;
+  background: rgb(48, 49, 52);
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 500px;
+  color: white;
+}
+
+.taxes-input-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.taxe-select {
+  font-size: 14px;
+}
+
+#entriesTaxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#productsTaxeInputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+textarea {
+  padding: 6px;
+  border-radius: 8px;
+}
+
+h4 {
+  font-size: 16px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  color: #ffff;
+  background: #0d8ee359;
+  margin: 0 auto;
+}
+
+#insertionSumBox {
+  /* border: 1px solid #17a3b88e; */
+  color: #09d7f7;
+  background: #272a2c59;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 80%;
+  margin: 60px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-weight: bold;
+  gap: 8px;
+  display: none;
+}
+
+.insertion-query-info {
+  background: rgb(48, 49, 52);
+  padding: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  margin: 8px;
+}
+
+#taxesContainer2 {
+  /* background: rgb(94, 93, 93); */
+  position: relative;
+  padding: 80px 0;
+  /* min-height: 99vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#taxesContainer2 p,
+.queries-list-array p {
+  font-size: 14px;
+  background: rgb(48, 49, 52);
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 500px;
+  color: white;
+}
+
+#buttonTop {
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  left: 0;
+}
+
+#buttonBottom {
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
